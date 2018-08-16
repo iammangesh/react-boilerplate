@@ -1,5 +1,5 @@
 # React workflow with postcss
-this is my person react workflow with webpack and postcss
+this is my personal react workflow with webpack and postcss
 
 ### Instructions
 For development
