@@ -22,6 +22,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
+    "css-mqpacker": "^7.0.0",
     "node-sass": "^4.9.3",
     "postcss-custom-properties": "^7.0.0",
     "postcss-loader": "^3.0.0",

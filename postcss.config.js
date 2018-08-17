@@ -1,5 +1,6 @@
 let  autoprefixer = require("autoprefixer"),
-     customProperties = require("postcss-custom-properties");
+     customProperties = require("postcss-custom-properties"),
+     mqPacker = require("css-mqpacker");
 
 module.exports = {
   plugins:[
@@ -8,6 +9,7 @@ module.exports = {
     }),
     customProperties({
       preserve:true
-    })
+    }),
+    mqPacker()
   ]
 }

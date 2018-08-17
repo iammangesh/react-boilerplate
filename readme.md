@@ -1,5 +1,5 @@
-# React workflow with postcss
-this is my personal react workflow with webpack and postcss
+# React app Boilerplate with postcss
+this is my personal boilerplate for react project with webpack and postcss
 
 ### Instructions
 For development
