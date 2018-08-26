@@ -10,6 +10,6 @@ yarn run dev-server
 ```
 For Production
 ```
-yarn run build:prod
+yarn run build:production
 
 ```

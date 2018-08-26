@@ -4,8 +4,8 @@ const path = require("path"),
 
 module.exports = (env) => {
 
-  const isProduction = env === "production",
-        isDevelopment  = env === "development",
+  const isProd = env === "production",
+        isDev = env === "development",
         CSSExtract = new CSSMiniExtract({
           filename:'style.min.css',
           chunkFilename:'[name].[hash].css',
@@ -27,7 +27,7 @@ module.exports = (env) => {
         test:/\.s?css$/,
         use:[
 
-          isProduction ? CSSMiniExtract.loader : 'style-loader',
+          isProd ? CSSMiniExtract.loader : 'style-loader',
           {
 
             loader:'css-loader',
@@ -79,7 +79,7 @@ module.exports = (env) => {
     plugins:[
       CSSExtract
     ],
-    devtool:isProduction ? 'source-map' : 'cheap-module-eval-source-map',
+    devtool:isProd ? 'source-map' : 'cheap-module-eval-source-map',
     devServer:{
       contentBase:path.join(__dirname,'/public'),
       historyApiFallback:true

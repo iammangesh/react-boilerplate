@@ -5,7 +5,7 @@ let  autoprefixer = require("autoprefixer"),
 module.exports = {
   plugins:[
     autoprefixer({
-      'browsers':'Last 5 versions'
+      'browsers':'Last 4 versions'
     }),
     customProperties({
       preserve:true

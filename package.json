@@ -2,10 +2,10 @@
   "name": "react",
   "version": "0.0.1",
   "description": "personal react workflow",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "build:dev": "webpack -d --env development",
-    "build:prod": "webpack -p --env production",
+    "build:production": "webpack -p --env production",
     "dev-server": "webpack-dev-server -d"
   },
   "keywords": [
