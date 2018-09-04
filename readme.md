@@ -1,15 +1,15 @@
-# React app Boilerplate with postcss
-this is my personal boilerplate for react project with webpack and postcss
+# React Boilerplate with postcss
+this is my personal boilerplate for react with webpack and postcss.
 
 ### Instructions
 For development
 
 ```
-yarn run dev-server
+yarn start
 
 ```
 For Production
 ```
-yarn run build:production
+yarn run build:prod
 
 ```
